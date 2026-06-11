@@ -205,7 +205,7 @@ export default function SanaEnterprises() {
                   />
               </div>
               
-              <div className="h-[350px] w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
+              <div className="h-87.5 w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
                 <iframe
                   title="Sana Enterprises Vasant Kunj Map"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.634034704372!2d77.1665488!3d28.5206564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f33bc9def3d%3A0xc78ef41a6dc0a424!2sSana%20Enterprises%20Scrap%20%26%20Kabadiwala!5e0!3m2!1sen!2sin!4v1781167748655!5m2!1sen!2sin"
