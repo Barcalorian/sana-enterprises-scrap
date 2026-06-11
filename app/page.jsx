@@ -28,12 +28,14 @@ export default function SanaEnterprises() {
     <div className="min-h-screen bg-gray-50 text-gray-800 font-sans selection:bg-green-200">
       
       {/* --- Navbar --- */}
-      <nav className="bg-green-700 text-white shadow-md sticky top-0 z-50">
+      {/* Navbar has transparency and blur, turns solid on hover */}
+      <nav className="bg-green-700/80 backdrop-blur-md hover:bg-green-700 transition-colors duration-300 text-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-extrabold tracking-tight">Sana Enterprises scrap & Kabadiwala</h1>
+          <h1 className="text-2xl font-extrabold tracking-tight">Sana Enterprises Scrap & Kabadiwala</h1>
+          {/* Button starts slightly transparent, turns solid on hover */}
           <a 
             href="#contact" 
-            className="bg-white text-green-700 px-5 py-2 rounded-lg font-bold hover:bg-gray-100 transition shadow-sm"
+            className="bg-white/80 backdrop-blur-sm text-green-800 px-5 py-2 rounded-lg font-bold hover:bg-white transition-all duration-300 shadow-sm"
           >
             Contact Us
           </a>
@@ -46,7 +48,7 @@ export default function SanaEnterprises() {
           src="/sana-1.jpg" 
           alt="Scrap and Kabadiwala Yard" 
           fill 
-          className="object-cover opacity-30 absolute inset-0"
+          className="object-cover opacity-40 absolute inset-0"
           priority
         />
         <div className="relative z-10 px-6 max-w-4xl mx-auto flex flex-col items-center">
@@ -57,23 +59,25 @@ export default function SanaEnterprises() {
             Hassle-free scrap collection. We buy old newspapers, e-waste, metals, plastics, and more at the best market rates.
           </p>
           
+          {/* Main CTA Button: Translucent with blur, solid green on hover */}
           <a 
             href="tel:+918882055596" 
-            className="bg-green-600 text-white px-8 py-4 rounded-full text-lg font-bold shadow-xl hover:bg-green-500 hover:scale-105 transition-transform duration-300 mb-6"
+            className="bg-green-600/70 backdrop-blur-md text-white px-8 py-4 rounded-full text-lg font-bold shadow-xl hover:bg-green-600 hover:scale-105 transition-all duration-300 mb-6"
           >
             Call Now: +91 88820 55596
           </a>
           
           {/* Rating & Hours Badges Group */}
           <div className="flex flex-col sm:flex-row items-center gap-4">
-            {/* Google Review Badge */}
-            <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-700 text-white px-5 py-2.5 rounded-full font-medium inline-flex items-center gap-2 shadow-lg">
+            
+            {/* Google Review Badge: Translucent, solid dark gray on hover */}
+            <div className="bg-gray-900/40 backdrop-blur-md border border-gray-500/30 hover:border-gray-500 hover:bg-gray-900 text-white px-5 py-2.5 rounded-full font-medium inline-flex items-center gap-2 shadow-lg transition-all duration-300 cursor-default">
                <span className="text-yellow-400 text-lg leading-none">★★★★★</span>
                <span><strong className="text-white">4.8</strong> on Google Reviews</span>
             </div>
 
-            {/* Prominent Hours Badge */}
-            <div className="bg-gray-900/60 backdrop-blur-sm border border-gray-700 text-green-300 px-5 py-2.5 rounded-full font-medium inline-flex items-center gap-2 shadow-lg">
+            {/* Prominent Hours Badge: Translucent, solid dark gray on hover */}
+            <div className="bg-gray-900/40 backdrop-blur-md border border-gray-500/30 hover:border-gray-500 hover:bg-gray-900 text-green-300 px-5 py-2.5 rounded-full font-medium inline-flex items-center gap-2 shadow-lg transition-all duration-300 cursor-default">
                <span>🕒</span> Open 24 hours everyday except Tuesday
             </div>
           </div>
@@ -201,10 +205,10 @@ export default function SanaEnterprises() {
                   />
               </div>
               
-              <div className="h-87.5 w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
+              <div className="h-[350px] w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
                 <iframe
                   title="Sana Enterprises Vasant Kunj Map"
-                  src="https://maps.google.com/maps?q=28.5206564,77.1665488&hl=en&z=17&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.634034704372!2d77.1665488!3d28.5206564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f33bc9def3d%3A0xc78ef41a6dc0a424!2sSana%20Enterprises%20Scrap%20%26%20Kabadiwala!5e0!3m2!1sen!2sin!4v1781167748655!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
