@@ -30,7 +30,7 @@ export default function SanaEnterprises() {
       {/* --- Navbar --- */}
       <nav className="bg-green-700 text-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <h1 className="text-2xl font-extrabold tracking-tight">Sana Enterprises</h1>
+          <h1 className="text-2xl font-extrabold tracking-tight">Sana Enterprises scrap & Kabadiwala</h1>
           <a 
             href="#contact" 
             className="bg-white text-green-700 px-5 py-2 rounded-lg font-bold hover:bg-gray-100 transition shadow-sm"
@@ -101,28 +101,28 @@ export default function SanaEnterprises() {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">What We Buy</h2>
             <ul className="space-y-6 text-lg text-gray-700">
               <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 text-green-600 text-2xl leading-none">✔</span> 
+                <span className="shrink-0 text-green-600 text-2xl leading-none">✔</span> 
                 <div>
                   <strong className="block text-gray-900">Metals</strong>
                   <span className="text-gray-600 text-base">Iron, Copper, Aluminium, Brass</span>
                 </div>
               </li>
               <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 text-green-600 text-2xl leading-none">✔</span> 
+                <span className="shrink-0 text-green-600 text-2xl leading-none">✔</span> 
                 <div>
                   <strong className="block text-gray-900">E-Waste</strong>
                   <span className="text-gray-600 text-base">Old appliances, computers, split AC units</span>
                 </div>
               </li>
               <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 text-green-600 text-2xl leading-none">✔</span> 
+                <span className="shrink-0 text-green-600 text-2xl leading-none">✔</span> 
                 <div>
                   <strong className="block text-gray-900">Paper & Plastic</strong>
                   <span className="text-gray-600 text-base">Newspapers, cardboard, plastic containers</span>
                 </div>
               </li>
               <li className="flex items-start gap-4">
-                <span className="flex-shrink-0 text-green-600 text-2xl leading-none">✔</span> 
+                <span className="shrink-0 text-green-600 text-2xl leading-none">✔</span> 
                 <div>
                   <strong className="block text-gray-900">Automobile Scrap</strong>
                   <span className="text-gray-600 text-base">Old vehicle parts, motors, and batteries</span>
@@ -132,7 +132,7 @@ export default function SanaEnterprises() {
           </div>
 
           {/* Image */}
-          <div className="order-1 md:order-2 relative h-80 md:h-[500px] w-full rounded-2xl overflow-hidden shadow-2xl">
+          <div className="order-1 md:order-2 relative h-80 md:h-125 w-full rounded-2xl overflow-hidden shadow-2xl">
             <Image 
               src="/sana-2.jpg" 
               alt="Scrap sorting and recycling" 
@@ -201,7 +201,7 @@ export default function SanaEnterprises() {
                   />
               </div>
               
-              <div className="h-[350px] w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
+              <div className="h-87.5 w-full rounded-2xl overflow-hidden shadow-md border border-gray-200">
                 <iframe
                   title="Sana Enterprises Vasant Kunj Map"
                   src="https://maps.google.com/maps?q=28.5206564,77.1665488&hl=en&z=17&output=embed"
@@ -223,7 +223,7 @@ export default function SanaEnterprises() {
       <footer className="bg-gray-900 text-gray-400 py-8 border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <div>
-            <p className="font-semibold text-white tracking-wide">Sana Enterprises</p>
+            <p className="font-semibold text-white tracking-wide">Sana Enterprises Scrap & Kabadiwala</p>
             <p className="text-sm mt-1 text-yellow-500">★★★★★ 4.8 / 5.0 Highly Rated</p>
           </div>
           <p className="text-sm">© {new Date().getFullYear()} Sana Enterprises Scrap & Kabadiwala. All Rights Reserved.</p>
